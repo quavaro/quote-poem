@@ -1,8 +1,6 @@
-Starter React App on Glitch
+Quote Poem Generator
 ===========================
 
-This app is a very small scaffold to get you started using React and Webpack.
+This application allows you to generate a poem line-by-line, with a topic of your choice for each line. The source text is the Goodreads quote library (https://www.goodreads.com/quotes).
 
-It's been copied by @starakaj for your enjoyment. You can find the original at https://glitch.com/~starter-react.
-
-This project relates to video 2 of 5 in the [React Starter Kit](https://glitch.com/react-starter-kit) video series.
+It's based on a poem generator starter by  @starakaj. You can find the original at https://github.com/starakaj/poem-starter.
