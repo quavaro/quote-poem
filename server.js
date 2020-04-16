@@ -28,8 +28,8 @@ app.get("/", function(request, response) {
   response.sendFile(__dirname + '/app/index.html');
 });
 
-app.get("/poem", async function(_, response) {
-  const lines = await makePoem();
+app.get("/poem/:topic", async function(request, response) {
+  const lines = await makePoem(request.params.topic);
   response.json(lines);
 });
 

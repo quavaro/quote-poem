@@ -1,3 +1,73 @@
 body {
-    font-family: Futura;
+    font-family: 'Bungee Hairline', futura, Arial, sans-serif;
+    font-size: 1.2rem;
+    background-color: #e3f2fa;
+}
+#main {
+    max-width: 900px;
+    width:100%;
+    margin: 0 auto;
+}
+h1 {
+    margin:1rem;
+    font-size: 2rem;
+}
+p {
+    margin: 1rem;
+}
+#sendTopic {
+    background-color: #39003b;
+    border: none;
+    line-height: 1.5rem;
+    padding: 1rem;
+    color:#fff;
+    font-family: 'Cormorant Unicase', futura, Arial, sans-serif;
+    font-size: 1rem;
+    border-radius: 15px;
+    margin: 1.5rem;
+    display: block;
+    cursor: pointer;
+}
+input[type=text] {
+    display: inline-block;
+    height: 1rem;
+    max-width: 50%;
+}
+form label {
+    display: block;
+    margin: 1rem;
+    font-weight: bold;
+    float: left;
+}
+form label input, form label textarea {
+    margin-left: 20px;
+    width:50%;
+}
+
+ul {
+    padding-inline-start: 1rem;
+}
+li {
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+    list-style-type: none;
+    list-style-position: inside;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 1rem;
+    background-color: #000;
+    text-align: left;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #1da1f2;
+}
+
+li a:hover {
+    text-decoration: underline;
 }
